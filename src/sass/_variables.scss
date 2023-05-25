@@ -1,5 +1,18 @@
-$backgroundColor: burlywood;
+$backgroundColor:#86f3b8 ;
 $titleColor: crimson;
 $TextColorOne: darkorchid;
 $TextColortwo: green;
 
+
+@mixin main-heading {
+    color: #482d57;
+    font-size: 34px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@mixin second-heading {
+    color: #76508e;
+    font-size:28px;
+
+}

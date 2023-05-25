@@ -9,15 +9,23 @@ main #section-two {
 }
 
 body {
-  background-color: burlywood;
+  background-color: #86f3b8;
 }
 body header {
   color: crimson;
   width: 100%;
 }
 body header h1 {
-  font-style: italic;
+  /* font-style: italic;
+  text-align: center; */
+  color: #482d57;
+  font-size: 34px;
   text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body h3 {
+  color: #76508e;
+  font-size: 28px;
 }
 
 /*# sourceMappingURL=styles.css.map */

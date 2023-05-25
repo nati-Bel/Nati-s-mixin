@@ -1,6 +1,7 @@
 @use 'sections';
 @import 'variables';
 
+
 body{
     background-color: $backgroundColor;
 
@@ -8,8 +9,12 @@ body{
         color: $titleColor;
         width: 100%;
         h1{
-            font-style: italic;
-            text-align: center;
+            /* font-style: italic;
+            text-align: center; */
+            @include main-heading;
         }
+    }
+    h3 {
+        @include second-heading;
     }
 }
